@@ -1,0 +1,25 @@
+.qr-bold {
+    font-weight: bold !important;
+}
+
+.qr-green {
+    color: #b11d2b;
+}
+.contact-details p {
+    color: #707070;
+}
+.contact-details h3 {
+    color: #0D4D62;
+}
+.center-small{
+    text-align: inherit;
+}
+.lead {
+    font-size: 1rem;
+}
+
+@media (max-width: 580px){
+    .center-small{
+        text-align: center;
+    }
+}

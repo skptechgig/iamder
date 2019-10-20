@@ -1,0 +1,107 @@
+<!-- Footer -->
+<footer class="page-footer bg-footer font-mediam pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-5 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">Iamder</h5>
+        <p>Iamder Technologies Private Limited is an unlisted private company. with some info</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <ul class="list-unstyled text-size">
+            <li>
+              <a [routerLink]="['/about-us']">About Us</a>
+            </li>
+            <li>
+              <a [routerLink]="['/contact-us']">Contact Us</a>
+            </li>
+            <li>
+              <a href="#!">T & C</a>
+            </li>
+            <li>
+              <a  style="cursor: pointer" data-toggle="modal" data-target="#exampleModal">Privacy Policy</a>
+            </li>
+           <!--  <app-privacy-modal></app-privacy-modal> -->
+            <li>
+              <a href="#!">SiteMap</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Address</h5>
+
+          <ul class="list-unstyled ">
+            <li>
+              <p>332/386, C2, Davana, 5th Main Vijaya Bank Layout,</p>
+              <p>Belekahalli Bangalore - 560076</p>
+            </li>
+            <li>
+              <p>contact@iamder.com</p>
+            </li>
+            
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mdbootstrap.com/education/angular/"> Iamder All Rights Reserved</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+</script>
